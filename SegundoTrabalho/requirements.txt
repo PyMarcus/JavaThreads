@@ -1,0 +1,2 @@
+versão do jdk utilizada: 17.2
+Sistema usado: Windows 10
