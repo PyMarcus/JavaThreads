@@ -40,11 +40,13 @@ public class Performer extends Thread {
     File _file = new File(
       "C://Users//" + user + "//Desktop//validated_cpf.txt"
     );
+    SolveCpf solve;
+    boolean cpf;
     String cpf_ = getInit_();
     for (long i = getInit(); i < getEnd(); i++) {
       // resolve o problema da falta de zeros, o que, se não fosse corrigido, causaria a posibilidade de cpfs inválidos começados com 0
-      SolveCpf solve = new SolveCpf(cpf_.substring(0, 11 - Long.toString(i).length()) + i);  
-      boolean cpf = solve.verifyCpf();
+      solve = new SolveCpf(cpf_.substring(0, 11 - Long.toString(i).length()) + i);
+      cpf = solve.verifyCpf();
 
       if (cpf) {
         System.out.println("CPF 🇧🇷 válido: " + cpf_.substring(0, 11 - Long.toString(i).length()) + i);
