@@ -74,8 +74,7 @@ public class BruteForceController {
         Método pronto que simula o método product da classe intertools do python.
         Esse método foi implementado para conferir maior flexibilidade ao programa(além da ideia de otimizar o tempo de desenvolvimento),contudo,
         o uso de threads no mesmo não foi viabilizado.
-        # o recurso está disponível em: https://stackoverflow.com/questions/63433335/java-alternative-of-product-function-of-python-form-itertools
-        Todo o crédito para o autor deste método.
+        
         :parameters (Collections<T>) conjunto de caracteres separados por virgulas
         :parameters (int) tamanho da senha
         : return (List)
