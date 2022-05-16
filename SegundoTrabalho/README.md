@@ -4,4 +4,4 @@
 
 
 Grato,
-Marcus Vinícius, matrícula 0064013, Sistemas de Informação, IFMG Ouro Branco, MG
+Marcus Vinícius, Sistemas de Informação, IFMG Ouro Branco, MG
